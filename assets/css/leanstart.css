@@ -1,0 +1,42 @@
+
+@media screen and (min-width: 600px) {
+    video#backgroundvid { 
+    right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    }
+    .ls_header {
+    font-size: 7em !important;
+    font-weight: 800 !important;
+    }
+    .idea_header {
+    font-size: 5em !important;
+    font-weight: 500 !important;
+    }
+    .expertise_icon {
+        font-size: 5em !important;
+    }
+    .section_margin_bottom {
+        margin-bottom: 9em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    video#backgroundvid { 
+    display: None;
+    }
+    .ls_header {
+    font-size: 4em !important;
+    font-weight: 800 !important;
+    }
+    .idea_header {
+    font-size: 3em !important;
+    font-weight: 500 !important;
+    }
+    .expertise_icon {
+        font-size: 5em !important;
+    }
+    .section_margin_bottom {
+        margin-bottom: 3em;
+    }
+}
